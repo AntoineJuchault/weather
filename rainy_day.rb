@@ -3,8 +3,8 @@ require "json"
 require "date"
 require "uri"
 
-lat = 48.9065
-lon = 2.3334
+lat = 
+lon = 
 
 
 url = "https://api.open-meteo.com/v1/forecast?latitude=#{lat}&longitude=#{lon}&daily=precipitation_sum&timezone=Europe%2FParis"
