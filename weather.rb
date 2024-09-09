@@ -3,8 +3,8 @@ require "json"
 require "uri"
 
 # Variables pour lon et lat
-lat = 48.9065
-lon = 2.3334
+lat = 
+lon =
 
 # URL de l'API Open-Meteo avec lon et lat
 url = "https://api.open-meteo.com/v1/forecast?latitude=#{lat}&longitude=#{lon}&current=temperature_2m,relative_humidity_2m,precipitation,rain,cloud_cover,wind_speed_10m,wind_direction_10m,wind_gusts_10m"
